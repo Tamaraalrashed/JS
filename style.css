@@ -1,0 +1,103 @@
+body {
+    width : 960px;
+    background-color: bisque;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+
+    width : 75px
+}
+header nav ul li {
+    display : inline;
+}
+ .heading {
+    font-family:'Gill Sans', 'Gill Sans MT';
+    color: brown; 
+    font-style:italic;
+    font-weight:bolder; 
+ }
+
+.H1 {
+ font-family: sans-serif; 
+ color: brown; 
+ font-style:italic;
+ font-weight: bold;
+    
+}
+.H2 {
+    
+    width: 200px;
+}
+.W1 {
+    
+    font-family: sans-serif; 
+ color: brown; 
+ font-style:italic;
+ font-weight: bold;
+}
+.W2{
+    
+    width: 200px;
+}
+.C1 {
+    
+    font-family: sans-serif; 
+ color: brown; 
+ font-style:italic;
+ font-weight: bold;
+}
+.C2 {
+    
+    width: 200px;
+}
+.a1{
+    flex-direction: column;
+    width : 30%
+}
+
+.a2{
+    flex-direction: column;
+    width : 30%
+}
+.a3{
+    flex-direction: column;
+    width : 30%
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.H3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: brown; 
+    font-style:italic;
+    font-weight:200PX;
+}
+.W3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: brown; 
+    font-style:italic;
+    font-weight:200PX;
+}
+.C3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: brown; 
+    font-style:italic;
+    font-weight:200PX;
+}
+
+.f1{
+    text-align: center;
+    background-color: lightcoral;
+    font-family:'Gill Sans', 'Gill Sans MT';
+    color: brown; 
+    font-style:italic;
+    line-height: 50px;
+}
